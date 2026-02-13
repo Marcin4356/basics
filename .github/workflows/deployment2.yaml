@@ -1,9 +1,15 @@
-name: Deploy website
-on:
-  push:
-    branches:
-      - main
-jobs:
+name: Deployment exercise 2
+on: push
+jobs: 
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Get code
+        uses: actions/checkout@v3
+      - name: Install dependencies
+        run: npm ci
+      - name: Test code
+        run: npm run test
   test:
     runs-on: ubuntu-latest
     steps:
@@ -11,23 +17,16 @@ jobs:
         uses: actions/checkout@v3
       - name: Install dependencies
         run: npm ci
-      - name: Lint code
+      - name: Lint
         run: npm run lint
-      - name: Test code
-        run: npm run test
-  build:
-    needs: test
+  deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Get code
         uses: actions/checkout@v3
       - name: Install dependencies
         run: npm ci
-      - name: Build website
+      - name: Build code
         run: npm run build
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-    steps:
-      - name: Deploy
-        run: echo "Deploying..."
+      - name: Deploy code
+        run: echp "Deploying"
