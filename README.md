@@ -1,21 +1,34 @@
-# JavaScript Basics
+# React + Vite Basics
 
-A small collection of JavaScript exercises and examples covering core programming and web development concepts.
+A small React application created with Vite for practicing component-based frontend development and the React testing workflow.
 
-## Overview
+## Stack
 
-The repository is used for practicing JavaScript fundamentals and keeping simple reference examples.
+- React 18
+- React DOM
+- Vite
+- Vitest
+- Testing Library
+- ESLint
+- JavaScript / JSX
 
-## Technologies
+## Available scripts
 
-- JavaScript
-- Node.js / npm
+```bash
+npm install
+npm run dev
+npm run build
+npm run test
+npm run lint
+npm run preview
+```
 
-## Focus areas
+## Project focus
 
-- JavaScript syntax and language fundamentals
-- Functions and control flow
-- Working with objects and arrays
-- Basic web development concepts
+- React components and JSX
+- client-side application structure
+- development and production builds with Vite
+- component testing with Vitest and Testing Library
+- linting with ESLint
 
-The repository is a learning project and reference collection rather than a production application.
+This is a learning project rather than a production application.
