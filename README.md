@@ -1,49 +1,21 @@
-# Basics
+# JavaScript Basics
 
-A JavaScript project containing fundamental concepts and examples for learning and reference.
+A small collection of JavaScript exercises and examples covering core programming and web development concepts.
 
-## 📋 Description
+## Overview
 
-This repository contains basic JavaScript examples and utilities for understanding core web development principles.
+The repository is used for practicing JavaScript fundamentals and keeping simple reference examples.
 
-## 🛠️ Tech Stack
+## Technologies
 
-- **Language:** JavaScript
-- **Type:** Educational/Reference
+- JavaScript
+- Node.js / npm
 
-## 📦 Installation
+## Focus areas
 
-```bash
-# Clone the repository
-git clone https://github.com/Marcin4356/basics.git
+- JavaScript syntax and language fundamentals
+- Functions and control flow
+- Working with objects and arrays
+- Basic web development concepts
 
-# Navigate to the project directory
-cd basics
-
-# Install dependencies (if applicable)
-npm install
-```
-
-## 🚀 Usage
-
-[Add specific usage instructions here]
-
-## 📁 Project Structure
-
-```
-basics/
-├── README.md
-└── [Add your project structure]
-```
-
-## 📝 License
-
-This project is open source and available under the MIT License.
-
-## 👤 Author
-
-**Marcin4356** - [GitHub Profile](https://github.com/Marcin4356)
-
----
-
-*Last updated: 2026-04-28*
+The repository is a learning project and reference collection rather than a production application.
